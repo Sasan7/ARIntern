@@ -11,7 +11,7 @@ public class InsntantiateObjects : MonoBehaviour {
     private GameObject ball,ball2;
     
     void Start () {
-		
+        instantiatedOne = false;
 	}
 	
 	// Update is called once per frame
@@ -21,8 +21,10 @@ public class InsntantiateObjects : MonoBehaviour {
 
     private void OnTriggerEnter(Collider col)
     {
+        Debug.Log("collided");
         if(col.gameObject.name == basket1.name && !instantiatedOne)
         {
+            Debug.Log("Ball one instantiated");
             instantiatedOne = true;
             
             ball = Instantiate(toBeInstantiated, placeholder.transform.position, Quaternion.identity, placeholder);

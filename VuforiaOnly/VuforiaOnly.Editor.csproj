@@ -165,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Vuforia\Vuforia\authoringinfo.xml" />
+    <None Include="Assets\Horse\SoftAlpha.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
     <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
@@ -178,6 +179,7 @@
     <None Include="Assets\StreamingAssets\Vuforia\Detection1.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Test.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\card.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />

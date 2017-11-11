@@ -44,8 +44,12 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - Detection1
+    - card
     - StonesAndChips
     dataSetsToActivate:
+    - Detection1
+    - card
     - StonesAndChips
   videoBackground:
     clippingMode: 0
