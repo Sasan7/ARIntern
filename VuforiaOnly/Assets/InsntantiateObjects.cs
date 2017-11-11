@@ -7,7 +7,7 @@ public class InsntantiateObjects : MonoBehaviour {
     public GameObject toBeInstantiated,ToBeInstantiated2;
     private bool instantiatedOne;
     public GameObject basket1, basket2;
-    public Transform placeholder;
+    public Transform placeholder,placeholder2;
     private GameObject ball,ball2;
     
     void Start () {
@@ -36,7 +36,7 @@ public class InsntantiateObjects : MonoBehaviour {
                 Destroy(ball);
                 ball = null;
                 instantiatedOne = false;
-                ball2 = Instantiate(ToBeInstantiated2, placeholder.transform.position, Quaternion.identity);
+                ball2 = Instantiate(ToBeInstantiated2, placeholder2.transform.position, Quaternion.identity);
                 Destroy(ball2, 2f);
             }
             else
