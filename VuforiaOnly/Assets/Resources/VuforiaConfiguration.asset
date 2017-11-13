@@ -44,10 +44,12 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - MyDatabase
     - Detection1
     - card
     - StonesAndChips
     dataSetsToActivate:
+    - MyDatabase
     - Detection1
     - card
     - StonesAndChips
@@ -63,12 +65,12 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 1
     autoStartTracker: 1
-    posePrediction: 0
+    posePrediction: 1
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: USB 2.0 Webcam Device
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30

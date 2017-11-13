@@ -177,6 +177,7 @@
     <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />
     <None Include="Assets\StreamingAssets\QCAR\sodacan.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Detection1.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\MyDatabase.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Test.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\card.xml" />

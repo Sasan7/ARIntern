@@ -98,7 +98,10 @@
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
     <Compile Include="Assets\HorseMove.cs" />
+    <Compile Include="Assets\HorseMoveTo.cs" />
     <Compile Include="Assets\InsntantiateObjects.cs" />
+    <Compile Include="Assets\mycamera.cs" />
+    <Compile Include="Assets\PicupScript.cs" />
     <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoEventHandler.cs" />
     <Compile Include="Assets\SamplesResources\CloudReco\Scripts\CloudRecoTrackableEventHandler.cs" />
     <Compile Include="Assets\SamplesResources\CloudReco\Scripts\ContentManager.cs" />
@@ -179,6 +182,7 @@
     <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />
     <None Include="Assets\StreamingAssets\QCAR\sodacan.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Detection1.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\MyDatabase.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Test.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\card.xml" />
