@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Project 1.unity
+- path: Assets/VisualPolish.unity
   isLoaded: 1
   isActive: 1
